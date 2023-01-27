@@ -3,6 +3,7 @@ Reproduction steps：
 1. Run IceOryx client (terminal 1)
 ```
 cd ros2-urdf-tutorial
+iox-roudi
 ```
 2. Launch demo (terminal 2)
 ```
