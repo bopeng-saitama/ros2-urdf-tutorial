@@ -1,14 +1,15 @@
 Reproduction steps：
-１．Run IceOryx client (terminal 1)
+
+1. Run IceOryx client (terminal 1)
 ```
 cd ros2-urdf-tutorial
 ```
-2.launch demo (terminal 2)
+2. Launch demo (terminal 2)
 ```
 cd ros2-urdf-tutorial
 CYCLONEDDS_URI=file://$PWD/cyclonedds.xml  ros2 launch urdf_tutorial demo.launch.py
 ```
-3.launch rviz (terminal 3)
+3. Launch rviz (terminal 3)
 ```
 cd ros2-urdf-tutorial
 CYCLONEDDS_URI=file://$PWD/cyclonedds.xml  ros2 launch urdf_tutorial rviz.launch.py
